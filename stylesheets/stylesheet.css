@@ -100,9 +100,16 @@ header td.name {
   display: none;
 }
 
+#current-work, #past-work {
+  padding: 50px;
+}
+
 #current-work {
   background-color: white;
-  padding: 50px;
+}
+
+#past-work {
+  background-color: #D1D7DB;
 }
 
 #content h1 {
@@ -120,7 +127,16 @@ header td.name {
   width: 50%;
   box-sizing: border-box;
   height: 100px;
+  padding-right: 20px;
   margin-bottom: 50px;
+  position: relative;
+}
+
+.card .date-range {
+  position: absolute;
+  color: gray;
+  right: 20px;
+  top: 2px;
 }
 
 .liftoff {
@@ -136,6 +152,24 @@ header td.name {
   float: left;
   margin-right: 10px;
   background-color: white;
+  line-height: 0;
+}
+
+.faux-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.ooyala, .ninjawords-ios {
+  background-color: transparent;
+}
+
+.livecss {
+  background-color: #5D686C;
+}
+
+.textmatevim {
+  background-color: #83A3B0;
 }
 
 .icon img {
