@@ -44,6 +44,11 @@ body {
   line-height: 1.5;
 }
 
+a, a:visited {
+  color: #317FB4;
+  text-decoration: none;
+}
+
 a:hover {
   color: orange;
 }
