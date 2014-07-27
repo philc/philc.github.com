@@ -188,6 +188,14 @@ header td.name {
   text-transform:uppercase;
 }
 
+.card h2 a {
+  color: black;
+}
+
+.card h2 a:hover {
+  color: orange;
+}
+
 .card p {
   margin: 0;
   padding: 0;
