@@ -55,7 +55,7 @@ a:hover {
 
 #content {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 #content header h1 {
@@ -64,7 +64,6 @@ a:hover {
   text-transform: uppercase;
 }
 header {
-  margin-top: 40px;
   background-color: #E1DFDF;
 }
 
@@ -102,6 +101,8 @@ header td.name {
 
 #current-work, #past-work {
   padding: 50px;
+  /* This bottom padding is provided by the cards. */
+  padding-bottom: 0;
 }
 
 #current-work {
